@@ -1,0 +1,113 @@
+/* General Values Start */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* End General Values */
+
+
+/* Header Section Start */
+#header{
+    background-color: #94b49f;
+    padding: 1rem 1rem 1rem 6rem;
+    text-shadow: 2px 2px #5cdb95;
+    color: #edf5e1;     
+}
+
+#header h2{
+    font-weight: bold;
+}
+
+/* End Header Section */
+
+
+/* Body Section Start */
+#container{
+    padding: 3.125rem 6.5rem;
+    height: 84vh;
+    background-color: #fcf8e8;
+}
+
+#container h1{
+    text-align: center;
+    background-color: #94b49f;
+    color: #fcf8e8;
+    padding: 0.625rem;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Text Area */
+#text_box{
+    width: 100%;
+    border: 2px solid #94b49f;
+    font-size: 1.125rem;
+    resize: none;
+    background-color: #fcf8e8;
+    color: #94b49f;
+}
+
+/* Output */
+#container h2{
+    text-align: center;
+    color: #fcf8e8;
+    background-color: #94b49f;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 0.625rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* End Body Section */
+
+
+/* Footer Section Start */
+#copyright{
+    background-color: #94b49f;
+    text-align: center;
+    color: #fcf8e8;
+    padding: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+/* End Footer Section */
+
+
+/* Responsive Design Start */
+@media only screen and (max-width: 500px){
+    /* Header Section Start */
+    #header h2{   
+        display: inline-block;  
+    }
+
+    #header{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        padding-right: 0rem !important;
+        padding-left: 0rem !important;  
+    }
+
+    /* End Header Section */
+
+
+    /* Body Section Start */
+    #container{
+        padding: 3.125rem 0rem;
+    }
+    #container h1{
+        font-size: 1.6rem;
+    }
+    
+    #container h2{
+        font-size: 1.4rem;
+    }
+
+    /* End Body Section */
+}
+
+
+/* End Responsive Design */
